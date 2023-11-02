@@ -1,0 +1,21 @@
+{
+  "name": "cypress-test",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test:e2e": "node scripts/testE2E.cjs"
+  },
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "cypress": "^13.4.0",
+    "get-port-cli": "^3.0.0",
+    "vite": "^4.4.5"
+  }
+}
